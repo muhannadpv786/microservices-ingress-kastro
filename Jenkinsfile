@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         DOCKER_HUB_REPO = 'muhannadpv/techsolutions-app'
-        K8S_CLUSTER_NAME = 'kastro-cluster'
+        K8S_CLUSTER_NAME = 'muhannad-cluster'
         AWS_REGION = 'ap-south-1'
         NAMESPACE = 'default'
         APP_NAME = 'techsolutions'
